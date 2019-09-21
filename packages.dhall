@@ -125,7 +125,11 @@ let overrides = {=}
 
 let additions = {
   p5 = {
-    dependencies = [] : List Text
+    dependencies = [
+      "aff"
+    , "foreign" 
+    , "foreign-generic" 
+    ]
     , repo = "https://github.com/derektmueller/purescript-p5.git"
     , version = "v0.10.0"
   }
