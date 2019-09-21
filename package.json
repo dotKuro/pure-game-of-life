@@ -1,6 +1,6 @@
 {
   "name": "pure-game-of-life",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Implementation of conways game of life with preuscript for the browser",
   "repository": "git@github.com:dotKuro/pure-game-of-life.git",
   "author": "dotKuro <akampftcg@gmail.com>",
