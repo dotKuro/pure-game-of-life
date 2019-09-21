@@ -1,8 +1,8 @@
 {
-  "name": "purescript-web-template",
-  "version": "0.2.0",
-  "description": "Purscript template for buildung web aplications",
-  "repository": "git@github.com:dotKuro/purescript-web-template.git",
+  "name": "pure-game-of-life",
+  "version": "1.0.0",
+  "description": "Implementation of conways game of life with preuscript for the browser",
+  "repository": "git@github.com:dotKuro/pure-game-of-life.git",
   "author": "dotKuro <akampftcg@gmail.com>",
   "license": "AGPL-3.0-or-later",
   "devDependencies": {
@@ -20,5 +20,8 @@
     "build": "webpack --mode development --progress --bail",
     "build:watch": "webpack --mode development --progress --display-error-details --display verbose --watch",
     "build:server": "webpack-dev-server --mode development --progress --inline --hot"
+  },
+  "dependencies": {
+    "p5": "^0.9.0"
   }
 }

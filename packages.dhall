@@ -123,6 +123,12 @@ let upstream =
 
 let overrides = {=}
 
-let additions = {=}
+let additions = {
+  p5 = {
+    dependencies = [] : List Text
+    , repo = "https://github.com/derektmueller/purescript-p5.git"
+    , version = "v0.10.0"
+  }
+}
 
 in  upstream // overrides // additions

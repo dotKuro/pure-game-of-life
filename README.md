@@ -1,22 +1,4 @@
-# purescript-web-template
-Purscript template for building web applications
+# Game of Life
+Conway's Game of Life in Purescript for the browser
 
-## Getting started
-
-### Install all dependencies
-```
-yarn install
-spago install
-```
-
-### Building your project
-```
-# build
-yarn build
-# recompile on change
-yarn build:watch
-# recompile on change with autorefresh web server
-yarn build:server
-```
-
-Have fun coding :)
+This code is horrorible. Don't look at it. I was tired and I will refactor it soon. Just wanted it running.
